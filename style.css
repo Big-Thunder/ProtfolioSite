@@ -47,7 +47,7 @@ body {
     border: #171718 0vw solid;
     border-radius: 50%;
     margin-bottom: 2vw;
-    box-shadow: #ff0000 0.1vw 0.1vw 2.5vw 0.1vw;
+    /* box-shadow: #ff0000 0.1vw 0.1vw 2.5vw 0.1vw; */
 }
 
 .image {
