@@ -2,93 +2,180 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Shirdhone - Resume</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="wrapper">
-    <div class="leftPanel">
-        <div class="imageHolder">
-            <img class="image" src="Images/profile-pic.jpg" alt="Profile-Pic"/>
-        </div>
-        <div class="basicInfo">
-
-            <p class="mainName">SHUBHAM SHIRDHONE</p>
-            <p class="smallNames">GAME DEVELOPER | SOFTWARE ENGINEER</p>
-            <p class="title">ABOUT ME</p>
-            <p class="sidePanelText">Creative and technically skilled developer passionate about game design and software programming. Proficient in designing gameplay mechanics, creating innovative features, and balancing user experience. Enthusiastic about gamifying real-world applications and integrating tech into engaging, interactive projects.</p>
-
-            <p class="title">CONTACT ME</p>
-            <p class="sidePanelText">Phone<br> 9175342812</p>
-            <p class="sidePanelText">Email<br> <a class="links" href="mailto:elctro2040@gmail.com">elctro2040@gmail.com</a></p>
-            <p class="sidePanelText">Address<br> 7A Sanmathi Nagar, Near Bharti Vidyapeeth, Solapur</p>
-
-            <p class="title">HOBBIES</p>
-            <p class="sidePanelText">Drawing</p>
-            <p class="sidePanelText">Mindful Walking</p>
-            <p class="sidePanelText">Playing Video Games</p>
-
-            <p class="title">Social</p>
-            <button class="socialButtons" onclick = "document.location='https://github.com/Big-Thunder'"><img class="socialButtonsImg" src="Images/github.png" alt="image"/></button>
-            <button class="socialButtons" onclick = "document.location='https://x.com/iamShubham_0045'"><img class="socialButtonsImg" src="Images/twitter.png" alt="image"/></button>
-            <button class="socialButtons" onclick = "document.location='https://www.linkedin.com/in/shubham-shirdhone-823493259'"><img class="socialButtonsImg" src="Images/linkedin.png" alt="image"/></button>
-        </div>
-    </div>
-    <div class="rightPanel">
-        <div class="rightPanelTitle">Experience</div>
-        <div class="rightPanelBigWrapper">
-            <div class="rightPanelSmallWrapper">
-                <p class="mainPanelText">Ask Games Internship</p>
-                <p class="mainPanelDescriptionText">A Remote internship at a game development company, where I work as game developer intern. This internship is giving me opportunities to learn advanced game development concepts like smooth animations, scriptable object design patterns and various soft skills like working and colaborating with a team.</p>
-            </div>
-            <div class="rightPanelSmallWrapper">
-                <p class="mainPanelText">Codesoft Internship</p>
-                <p class="mainPanelDescriptionText">An unpaid online internship where we completed a list of tasks in Java programming language. An unpaid online internship where we completed a list of tasks in Java programming language. An unpaid online internship where we completed a list of tasks in Java programming language. </p>
+<div class="container">
+    <header class="header">
+        <div class="header-content">
+            <img class="profile-image" src="Images/profile-pic.jpg" alt="Shubham Shirdhone">
+            <h1>SHUBHAM SHIRDHONE</h1>
+            <p class="tagline">Game Developer | Software Engineer</p>
+            <div class="contact-bar">
+                <div class="contact-item">
+                    <span>📍</span> Solapur, Maharashtra, India
+                </div>
+                <div class="contact-item">
+                    <span>📞</span> 9175342812
+                </div>
+                <div class="contact-item">
+                    <span>✉️</span> <a href="mailto:iamshubham2040@gmail.com">iamshubham2040@gmail.com</a>
+                </div>
             </div>
         </div>
-        <div class="rightPanelTitle">Projects</div>
-            <a class="projectLinks" href="#">
-                <div class="rightPanelBigWrapper">
-                    <div class="rightPanelSmallWrapper">
-                        <p class="mainPanelText">QUEBE</p>
-                        <div class="projectImgAndText">
-                            <img class="projectImg" src="Images/QUEBE.png" alt="QUEBE Project">
-                            <p class="mainPanelDescriptionText">Contributed as a <strong>LEAD PROGRAMMER</strong> with a team of 3. Programmed animations to work smoothly with player controls. Programmed interactive enemy AI to improve gameplay experience. Managed and built scalable and optimized code to further expand the game</p>
+    </header>
+
+    <div class="main-content">
+        <aside class="sidebar">
+            <section class="section">
+                <h2 class="section-title">Social</h2>
+                <div class="social-links">
+                    <a href="https://github.com/Big-Thunder" class="social-btn" target="_blank">
+                        <img src="Images/github.png" alt="GitHub">
+                    </a>
+                    <a href="https://www.linkedin.com/in/shubham-shirdhone-823493259" class="social-btn" target="_blank">
+                        <img src="Images/linkedin.png" alt="LinkedIn">
+                    </a>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Technical Skills</h2>
+                <ul class="skill-list">
+                    <li><strong>Game Dev:</strong> Unity, C#, Blender</li>
+                    <li><strong>Languages:</strong> C/C++, Java, Python, JavaScript</li>
+                    <li><strong>Web:</strong> React, Spring Boot</li>
+                    <li><strong>Tools:</strong> Git, Visual Studio, Audacity</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Interests</h2>
+                <ul class="interest-list">
+                    <li>Game Development</li>
+                    <li>Story-rich Games</li>
+                    <li>Classical Music</li>
+                    <li>Movies & Series</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Languages</h2>
+                <ul class="language-list">
+                    <li>English</li>
+                    <li>Hindi</li>
+                    <li>Marathi</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Certifications</h2>
+                <ul class="skill-list">
+                    <li>Infosys Springboard</li>
+                    <li>AWS Cloud Foundations</li>
+                    <li>Google Cloud</li>
+                </ul>
+            </section>
+        </aside>
+
+        <main class="main-section">
+            <section class="section">
+                <h2 class="section-title">Professional Summary</h2>
+                <p class="item-description">
+                    Final-year Computer Science student specializing in Unity-based game development with proven ability to deliver complete projects under tight deadlines. Experienced in building interactive VR experiences, puzzle mechanics, and AI systems. Strong problem-solver with expertise across game development, web technologies, and collaborative team environments.
+                </p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Education</h2>
+                <div class="education-item">
+                    <div class="item-header">
+                        <h3 class="item-title">B.Tech in Computer Science and Engineering</h3>
+                        <p class="item-subtitle">Walchand Institute of Technology, Solapur</p>
+                    </div>
+                    <p class="item-date">2022 – 2026 | CGPA: 8.45</p>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Experience</h2>
+                <div class="experience-item">
+                    <div class="item-header">
+                        <h3 class="item-title">Game Developer Intern</h3>
+                        <p class="item-subtitle">ASK Games IND</p>
+                    </div>
+                    <p class="item-date">February 2025 – Present</p>
+                    <div class="item-description">
+                        <ul>
+                            <li>Collaborating on multiple game projects across diverse themes using Unity, C#, and Git</li>
+                            <li>Sole programmer on 2D platformer delivered within 1-week deadline</li>
+                            <li>Utilizing Blender, LiberSprite, and Audacity for integrated asset creation</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="projects-grid">
+                    <div class="project-item">
+                        <div class="item-header">
+                            <h3 class="item-title">VR Space</h3>
+                            <p class="item-subtitle">3D VR Educational Experience | Team of 3</p>
+                        </div>
+                        <div class="item-description">
+                            Built interactive VR solar system exploration with custom UI for displaying planetary data, historical information, and intuitive navigation systems. Secured 2nd place in project competition at VVP College.
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="item-header">
+                            <h3 class="item-title">Strall</h3>
+                            <p class="item-subtitle">2D Puzzle-Platformer</p>
+                        </div>
+                        <div class="item-description">
+                            Designed and implemented time manipulation mechanics for puzzle-solving gameplay. Developed level flow architecture and core game systems in Unity.
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="item-header">
+                            <h3 class="item-title">NeuroFractal</h3>
+                            <p class="item-subtitle">Cyberpunk Stealth-Action Game | Team of 3</p>
+                        </div>
+                        <div class="item-description">
+                            Implemented stealth mechanics, AI enemy behaviors, environmental puzzles, and comprehensive UI systems for immersive gameplay experience.
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="item-header">
+                            <h3 class="item-title">Movie Explorer</h3>
+                            <p class="item-subtitle">React Web Application</p>
+                        </div>
+                        <div class="item-description">
+                            Movie discovery platform integrating TMDB API, featuring trending content, upcoming releases, and detailed movie information pages.
                         </div>
                     </div>
                 </div>
-            </a>
-            <a class="projectLinks" href="https://thunder1.itch.io/strall">
-                <div class="rightPanelSmallWrapper">
-                    <p class="mainPanelText">Strall</p>
-                    <div class="projectImgAndText">
-                        <img class="projectImg" src="Images/STRALL.png" alt="Strall Project">
-                        <p class="mainPanelDescriptionText">Developed a 2D game where players control a ball with time-manipulation abilities. Played roles of <strong>PROGRAMMER</strong>, <strong>2D ARTIST</strong>, and more. Programmed and balanced game mecahnics like time control and dash ability to improve gameplay. Edited and programmed sound to work with game for the game feel.</p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Additional</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <h3 class="achievement-title">Leadership</h3>
+                        <p class="achievement-text">Event Coordinator Volunteer at WITchar Event (2022–2026)</p>
                     </div>
                 </div>
-            </a>
-            <a class="projectLinks" href="https://youtu.be/euTYqlUmBa0?si=OY8WErsMQm1MZB9D">
-                <div class="rightPanelSmallWrapper">
-                    <p class="mainPanelText">Animation Contest Entry</p>
-                    <div class="projectImgAndText">
-                        <img class="projectImg" src="Images/ANIM.png" alt="Animation Project">
-                        <p class="mainPanelDescriptionText">Created a 3D animation about AI and Humanity. Roles: <strong>ARTIST, MUSICIAN, WRITER</strong>. explores a futuristic scenario where artificial intelligence rises to challenge humanity's dominance. The project reflects on themes of technological advancement, human ingenuity, and the philosophical question: "What truly defines intelligence and survival?"</p>
-                    </div>
-                </div>
-            </a>
-            <a class="projectLinks" href="#">
-                <div class="rightPanelSmallWrapper">
-                    <p class="mainPanelText">VR Museum</p>
-                    <div class="projectImgAndText">
-                        <img class="projectImg" src="Images/VR.png" alt="VR Museum">
-                        <p class="mainPanelDescriptionText">A VR experience showcasing historical artifacts. Contributed as a <strong>LEAD PROGRAMMER</strong>.The VR Museum Project is an exciting initiative currently under development, promising to revolutionize the way people experience art, history, and science. Designed as an immersive virtual reality experience, the museum will allow users to explore curated exhibits from the comfort of their own homes. As development progresses, the project aims to feature hyper-realistic galleries, interactive 3D models of historical artifacts, and dynamic animations that bring historical events and scientific phenomena to life. Stay tuned—this cutting-edge project is coming soon and will redefine the boundaries of education and entertainment!</p>
-                    </div>
-                </div>
-            </a>
-        </div>
+            </section>
+        </main>
     </div>
 </div>
 </body>
